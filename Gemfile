@@ -50,4 +50,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
+gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
 gem 'activestorage'
