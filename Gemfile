@@ -52,4 +52,8 @@ gem 'nokogiri'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
+<<<<<<< HEAD
+=======
+gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
+>>>>>>> 611fa8b48796e3d0f6d0d9a74c76c988c70f5f98
 gem 'activestorage'

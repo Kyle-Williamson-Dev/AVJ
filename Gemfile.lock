@@ -1,3 +1,20 @@
+GIT
+  remote: https://github.com/sferik/rails_admin.git
+  revision: 7962a19469a709c00f481a50a6d1e7ddd1e37cc6
+  specs:
+    rails_admin (2.1.1)
+      activemodel-serializers-xml (>= 1.0)
+      builder (~> 3.1)
+      haml (>= 4.0, < 6)
+      jquery-rails (>= 3.0, < 5)
+      jquery-ui-rails (>= 5.0, < 7)
+      kaminari (>= 0.14, < 2.0)
+      nested_form (~> 0.3)
+      rack-pjax (>= 0.7)
+      rails (>= 5.0, < 7)
+      remotipart (~> 1.3)
+      sassc-rails (>= 1.3, < 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,6 +59,10 @@ GEM
       globalid (>= 0.3.6)
     activemodel (6.0.3.7)
       activesupport (= 6.0.3.7)
+    activemodel-serializers-xml (1.0.2)
+      activemodel (> 5.x)
+      activesupport (> 5.x)
+      builder (~> 3.1)
     activerecord (6.0.3.7)
       activemodel (= 6.0.3.7)
       activesupport (= 6.0.3.7)
@@ -86,10 +107,31 @@ GEM
     ffi (1.15.1-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    haml (5.2.1)
+      temple (>= 0.8.0)
+      tilt
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
+    jquery-rails (4.4.0)
+      rails-dom-testing (>= 1, < 3)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
+    jquery-ui-rails (6.0.1)
+      railties (>= 3.2.16)
+    kaminari (1.2.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.1)
+      kaminari-activerecord (= 1.2.1)
+      kaminari-core (= 1.2.1)
+    kaminari-actionview (1.2.1)
+      actionview
+      kaminari-core (= 1.2.1)
+    kaminari-activerecord (1.2.1)
+      activerecord
+      kaminari-core (= 1.2.1)
+    kaminari-core (1.2.1)
     loofah (2.9.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -98,6 +140,7 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.1.0)
+<<<<<<< HEAD
     mini_portile2 (2.5.2)
       net-ftp (~> 0.1)
     minitest (5.14.4)
@@ -106,6 +149,12 @@ GEM
       net-protocol
       time
     net-protocol (0.1.0)
+=======
+    mini_portile2 (2.5.1)
+    minitest (5.14.4)
+    msgpack (1.4.2)
+    nested_form (0.3.2)
+>>>>>>> 611fa8b48796e3d0f6d0d9a74c76c988c70f5f98
     nio4r (2.5.7)
     nokogiri (1.11.5)
       mini_portile2 (~> 2.5.0)
@@ -120,6 +169,9 @@ GEM
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
+    rack-pjax (1.1.0)
+      nokogiri (~> 1.5)
+      rack (>= 1.1)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -152,6 +204,7 @@ GEM
       thor (>= 0.20.3, < 2.0)
     rake (13.0.3)
     regexp_parser (2.1.1)
+    remotipart (1.4.4)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -178,6 +231,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    temple (0.8.2)
     thor (1.1.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -225,7 +279,12 @@ DEPENDENCIES
   nokogiri
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
+<<<<<<< HEAD
   rails
+=======
+  rails (~> 6.0.3, >= 6.0.3.2)
+  rails_admin!
+>>>>>>> 611fa8b48796e3d0f6d0d9a74c76c988c70f5f98
   sass-rails (>= 6)
   selenium-webdriver
   turbolinks (~> 5)
