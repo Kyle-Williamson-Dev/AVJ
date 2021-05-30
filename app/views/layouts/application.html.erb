@@ -21,10 +21,13 @@
       <%= link_to('Login', new_user_session_path)  %>  
     <% end %> 
 -->
-
-    <nav>
-
-    </nav>
+  <div class="wrapper">
+    <div class="nav">
+      <%= link_to 'home', class:'nav-item' %>
+      <%= link_to 'profile', class:'nav-item' %>
+      <%= link_to 'amzregistry', class:'nav-item' %>
+    </div>
+  </div>
 
     <%= yield %>
   </body>

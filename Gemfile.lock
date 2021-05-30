@@ -140,21 +140,10 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.1.0)
-<<<<<<< HEAD
-    mini_portile2 (2.5.2)
-      net-ftp (~> 0.1)
-    minitest (5.14.4)
-    msgpack (1.4.2)
-    net-ftp (0.1.2)
-      net-protocol
-      time
-    net-protocol (0.1.0)
-=======
     mini_portile2 (2.5.1)
     minitest (5.14.4)
     msgpack (1.4.2)
     nested_form (0.3.2)
->>>>>>> 611fa8b48796e3d0f6d0d9a74c76c988c70f5f98
     nio4r (2.5.7)
     nokogiri (1.11.5)
       mini_portile2 (~> 2.5.0)
@@ -235,7 +224,6 @@ GEM
     thor (1.1.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    time (0.1.0)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -279,12 +267,8 @@ DEPENDENCIES
   nokogiri
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
-<<<<<<< HEAD
   rails
-=======
-  rails (~> 6.0.3, >= 6.0.3.2)
   rails_admin!
->>>>>>> 611fa8b48796e3d0f6d0d9a74c76c988c70f5f98
   sass-rails (>= 6)
   selenium-webdriver
   turbolinks (~> 5)
